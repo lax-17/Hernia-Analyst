@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="767pt" height="621pt" viewBox="0.00 0.00 767.31 620.84">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 606.44)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-14.4,14.4 -14.4,-606.44 752.91,-606.44 752.91,14.4 -14.4,14.4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<path fill="#dff0d8" stroke="black" d="M113.23,-592.04C113.23,-592.04 49.29,-592.04 49.29,-592.04 43.29,-592.04 37.29,-586.04 37.29,-580.04 37.29,-580.04 37.29,-567.32 37.29,-567.32 37.29,-561.32 43.29,-555.32 49.29,-555.32 49.29,-555.32 113.23,-555.32 113.23,-555.32 119.23,-555.32 125.23,-561.32 125.23,-567.32 125.23,-567.32 125.23,-580.04 125.23,-580.04 125.23,-586.04 119.23,-592.04 113.23,-592.04"/>
+<text text-anchor="middle" x="81.26" y="-570.98" font-family="Helvetica,sans-Serif" font-size="9.00">▶️ Start Script</text>
+</g>
+<!-- setup_model -->
+<g id="node3" class="node">
+<title>setup_model</title>
+<path fill="#d9edf7" stroke="black" d="M150.52,-518.32C150.52,-518.32 12,-518.32 12,-518.32 6,-518.32 0,-512.32 0,-506.32 0,-506.32 0,-472 0,-472 0,-466 6,-460 12,-460 12,-460 150.52,-460 150.52,-460 156.52,-460 162.52,-466 162.52,-472 162.52,-472 162.52,-506.32 162.52,-506.32 162.52,-512.32 156.52,-518.32 150.52,-518.32"/>
+<text text-anchor="middle" x="81.26" y="-497.26" font-family="Helvetica,sans-Serif" font-size="9.00">1. Setup &amp; Load Model</text>
+<text text-anchor="middle" x="81.26" y="-486.46" font-family="Helvetica,sans-Serif" font-size="9.00">- Log in to HF</text>
+<text text-anchor="middle" x="81.26" y="-475.66" font-family="Helvetica,sans-Serif" font-size="9.00">- Load quantized fine-tuned model</text>
+</g>
+<!-- start&#45;&gt;setup_model -->
+<g id="edge1" class="edge">
+<title>start-&gt;setup_model</title>
+<path fill="none" stroke="black" d="M81.26,-554.92C81.26,-554.92 81.26,-526 81.26,-526"/>
+<polygon fill="black" stroke="black" points="83.36,-526 81.26,-520 79.16,-526 83.36,-526"/>
+</g>
+<!-- end -->
+<g id="node2" class="node">
+<title>end</title>
+<path fill="#dff0d8" stroke="black" d="M674.98,-36.72C674.98,-36.72 639.54,-36.72 639.54,-36.72 633.54,-36.72 627.54,-30.72 627.54,-24.72 627.54,-24.72 627.54,-12 627.54,-12 627.54,-6 633.54,0 639.54,0 639.54,0 674.98,0 674.98,0 680.98,0 686.98,-6 686.98,-12 686.98,-12 686.98,-24.72 686.98,-24.72 686.98,-30.72 680.98,-36.72 674.98,-36.72"/>
+<text text-anchor="middle" x="657.26" y="-15.66" font-family="Helvetica,sans-Serif" font-size="9.00">⏹️ End</text>
+</g>
+<!-- upload_raw -->
+<g id="node4" class="node">
+<title>upload_raw</title>
+<path fill="#f2dede" stroke="black" d="M137.75,-417.6C137.75,-417.6 24.77,-417.6 24.77,-417.6 18.77,-417.6 12.77,-411.6 12.77,-405.6 12.77,-405.6 12.77,-382.08 12.77,-382.08 12.77,-376.08 18.77,-370.08 24.77,-370.08 24.77,-370.08 137.75,-370.08 137.75,-370.08 143.75,-370.08 149.75,-376.08 149.75,-382.08 149.75,-382.08 149.75,-405.6 149.75,-405.6 149.75,-411.6 143.75,-417.6 137.75,-417.6"/>
+<text text-anchor="middle" x="81.26" y="-396.54" font-family="Helvetica,sans-Serif" font-size="9.00">2. Upload Raw Patient Data</text>
+<text text-anchor="middle" x="81.26" y="-385.74" font-family="Helvetica,sans-Serif" font-size="9.00">(patient_profile.json)</text>
+</g>
+<!-- setup_model&#45;&gt;upload_raw -->
+<g id="edge2" class="edge">
+<title>setup_model-&gt;upload_raw</title>
+<path fill="none" stroke="black" d="M81.26,-459.52C81.26,-459.52 81.26,-425.54 81.26,-425.54"/>
+<polygon fill="black" stroke="black" points="83.36,-425.54 81.26,-419.54 79.16,-425.54 83.36,-425.54"/>
+</g>
+<!-- process_data -->
+<g id="node5" class="node">
+<title>process_data</title>
+<path fill="#d9edf7" stroke="black" d="M232.25,-311.88C232.25,-311.88 106.27,-311.88 106.27,-311.88 100.27,-311.88 94.27,-305.88 94.27,-299.88 94.27,-299.88 94.27,-265.56 94.27,-265.56 94.27,-259.56 100.27,-253.56 106.27,-253.56 106.27,-253.56 232.25,-253.56 232.25,-253.56 238.25,-253.56 244.25,-259.56 244.25,-265.56 244.25,-265.56 244.25,-299.88 244.25,-299.88 244.25,-305.88 238.25,-311.88 232.25,-311.88"/>
+<text text-anchor="middle" x="169.26" y="-290.82" font-family="Helvetica,sans-Serif" font-size="9.00">3. Process Input</text>
+<text text-anchor="middle" x="169.26" y="-280.02" font-family="Helvetica,sans-Serif" font-size="9.00">- Extract metadata</text>
+<text text-anchor="middle" x="169.26" y="-269.22" font-family="Helvetica,sans-Serif" font-size="9.00">- Merge narratives to one block</text>
+</g>
+<!-- upload_raw&#45;&gt;process_data -->
+<g id="edge3" class="edge">
+<title>upload_raw-&gt;process_data</title>
+<path fill="none" stroke="black" d="M122.01,-369.73C122.01,-369.73 122.01,-319.84 122.01,-319.84"/>
+<polygon fill="black" stroke="black" points="124.11,-319.84 122.01,-313.84 119.91,-319.84 124.11,-319.84"/>
+</g>
+<!-- run_inference -->
+<g id="node6" class="node">
+<title>run_inference</title>
+<path fill="#e8f5e9" stroke="black" d="M377.5,-518.32C377.5,-518.32 255.02,-518.32 255.02,-518.32 249.02,-518.32 243.02,-512.32 243.02,-506.32 243.02,-506.32 243.02,-472 243.02,-472 243.02,-466 249.02,-460 255.02,-460 255.02,-460 377.5,-460 377.5,-460 383.5,-460 389.5,-466 389.5,-472 389.5,-472 389.5,-506.32 389.5,-506.32 389.5,-512.32 383.5,-518.32 377.5,-518.32"/>
+<text text-anchor="middle" x="316.26" y="-497.26" font-family="Helvetica,sans-Serif" font-size="9.00">4. Run Model Inference</text>
+<text text-anchor="middle" x="316.26" y="-486.46" font-family="Helvetica,sans-Serif" font-size="9.00">- Build Llama3 prompt</text>
+<text text-anchor="middle" x="316.26" y="-475.66" font-family="Helvetica,sans-Serif" font-size="9.00">- Generate structured analysis</text>
+</g>
+<!-- process_data&#45;&gt;run_inference -->
+<g id="edge4" class="edge">
+<title>process_data-&gt;run_inference</title>
+<path fill="none" stroke="black" d="M244.64,-282.72C254.67,-282.72 261.57,-282.72 261.57,-282.72 261.57,-282.72 261.57,-452.07 261.57,-452.07"/>
+<polygon fill="black" stroke="black" points="259.47,-452.07 261.57,-458.07 263.67,-452.07 259.47,-452.07"/>
+</g>
+<!-- parse_json -->
+<g id="node7" class="node">
+<title>parse_json</title>
+<path fill="#d9edf7" stroke="black" d="M417.62,-423C417.62,-423 290.89,-423 290.89,-423 284.89,-423 278.89,-417 278.89,-411 278.89,-411 278.89,-376.68 278.89,-376.68 278.89,-370.68 284.89,-364.68 290.89,-364.68 290.89,-364.68 417.62,-364.68 417.62,-364.68 423.62,-364.68 429.62,-370.68 429.62,-376.68 429.62,-376.68 429.62,-411 429.62,-411 429.62,-417 423.62,-423 417.62,-423"/>
+<text text-anchor="middle" x="354.26" y="-401.94" font-family="Helvetica,sans-Serif" font-size="9.00">5. Parse &amp; Combine Data</text>
+<text text-anchor="middle" x="354.26" y="-391.14" font-family="Helvetica,sans-Serif" font-size="9.00">- Extract JSON from output</text>
+<text text-anchor="middle" x="354.26" y="-380.34" font-family="Helvetica,sans-Serif" font-size="9.00">- Merge metadata + AI analysis</text>
+</g>
+<!-- run_inference&#45;&gt;parse_json -->
+<g id="edge5" class="edge">
+<title>run_inference-&gt;parse_json</title>
+<path fill="none" stroke="black" d="M334.19,-459.52C334.19,-459.52 334.19,-430.97 334.19,-430.97"/>
+<polygon fill="black" stroke="black" points="336.29,-430.97 334.19,-424.97 332.09,-430.97 336.29,-430.97"/>
+</g>
+<!-- save_json -->
+<g id="node8" class="node">
+<title>save_json</title>
+<polygon fill="#fcf8e3" stroke="black" points="447.25,-306.48 325.27,-306.48 325.27,-258.96 453.25,-258.96 453.25,-300.48 447.25,-306.48"/>
+<polyline fill="none" stroke="black" points="447.25,-306.48 447.25,-300.48"/>
+<polyline fill="none" stroke="black" points="453.25,-300.48 447.25,-300.48"/>
+<text text-anchor="middle" x="389.26" y="-285.42" font-family="Helvetica,sans-Serif" font-size="9.00">6. Save Analysis File</text>
+<text text-anchor="middle" x="389.26" y="-274.62" font-family="Helvetica,sans-Serif" font-size="9.00">(analysis_of_patient.json)</text>
+</g>
+<!-- parse_json&#45;&gt;save_json -->
+<g id="edge6" class="edge">
+<title>parse_json-&gt;save_json</title>
+<path fill="none" stroke="black" d="M377.45,-364.35C377.45,-364.35 377.45,-314.24 377.45,-314.24"/>
+<polygon fill="black" stroke="black" points="379.55,-314.24 377.45,-308.24 375.35,-314.24 379.55,-314.24"/>
+</g>
+<!-- upload_analysis -->
+<g id="node9" class="node">
+<title>upload_analysis</title>
+<path fill="#f2dede" stroke="black" d="M649.25,-417.6C649.25,-417.6 545.27,-417.6 545.27,-417.6 539.27,-417.6 533.27,-411.6 533.27,-405.6 533.27,-405.6 533.27,-382.08 533.27,-382.08 533.27,-376.08 539.27,-370.08 545.27,-370.08 545.27,-370.08 649.25,-370.08 649.25,-370.08 655.25,-370.08 661.25,-376.08 661.25,-382.08 661.25,-382.08 661.25,-405.6 661.25,-405.6 661.25,-411.6 655.25,-417.6 649.25,-417.6"/>
+<text text-anchor="middle" x="597.26" y="-396.54" font-family="Helvetica,sans-Serif" font-size="9.00">7. Upload Analysis File</text>
+<text text-anchor="middle" x="597.26" y="-385.74" font-family="Helvetica,sans-Serif" font-size="9.00">(analysis_of_patient.json)</text>
+</g>
+<!-- save_json&#45;&gt;upload_analysis -->
+<g id="edge7" class="edge">
+<title>save_json-&gt;upload_analysis</title>
+<path fill="none" stroke="gray" stroke-dasharray="5,2" d="M441.43,-306.83C441.43,-339.51 441.43,-393.84 441.43,-393.84 441.43,-393.84 525.47,-393.84 525.47,-393.84"/>
+<polygon fill="gray" stroke="gray" points="525.47,-395.94 531.47,-393.84 525.47,-391.74 525.47,-395.94"/>
+<text text-anchor="middle" x="527.37" y="-334.08" font-family="Helvetica,sans-Serif" font-size="14.00">Output of Part 1 → Input of Part 2</text>
+</g>
+<!-- process_pdf -->
+<g id="node10" class="node">
+<title>process_pdf</title>
+<path fill="#d9edf7" stroke="black" d="M726.51,-306.48C726.51,-306.48 588.01,-306.48 588.01,-306.48 582.01,-306.48 576.01,-300.48 576.01,-294.48 576.01,-294.48 576.01,-270.96 576.01,-270.96 576.01,-264.96 582.01,-258.96 588.01,-258.96 588.01,-258.96 726.51,-258.96 726.51,-258.96 732.51,-258.96 738.51,-264.96 738.51,-270.96 738.51,-270.96 738.51,-294.48 738.51,-294.48 738.51,-300.48 732.51,-306.48 726.51,-306.48"/>
+<text text-anchor="middle" x="657.26" y="-285.42" font-family="Helvetica,sans-Serif" font-size="9.00">8. Generate PDF Structure</text>
+<text text-anchor="middle" x="657.26" y="-274.62" font-family="Helvetica,sans-Serif" font-size="9.00">- Styles, Page 1: Patient Metadata</text>
+</g>
+<!-- upload_analysis&#45;&gt;process_pdf -->
+<g id="edge8" class="edge">
+<title>upload_analysis-&gt;process_pdf</title>
+<path fill="none" stroke="black" d="M618.63,-369.73C618.63,-369.73 618.63,-314.3 618.63,-314.3"/>
+<polygon fill="black" stroke="black" points="620.73,-314.3 618.63,-308.3 616.53,-314.3 620.73,-314.3"/>
+</g>
+<!-- loop_pdf -->
+<g id="node11" class="node">
+<title>loop_pdf</title>
+<path fill="#d9edf7" stroke="black" d="M724.5,-216.56C724.5,-216.56 590.01,-216.56 590.01,-216.56 584.01,-216.56 578.01,-210.56 578.01,-204.56 578.01,-204.56 578.01,-170.24 578.01,-170.24 578.01,-164.24 584.01,-158.24 590.01,-158.24 590.01,-158.24 724.5,-158.24 724.5,-158.24 730.5,-158.24 736.5,-164.24 736.5,-170.24 736.5,-170.24 736.5,-204.56 736.5,-204.56 736.5,-210.56 730.5,-216.56 724.5,-216.56"/>
+<text text-anchor="middle" x="657.26" y="-195.5" font-family="Helvetica,sans-Serif" font-size="9.00">9. Populate Analysis Pages</text>
+<text text-anchor="middle" x="657.26" y="-184.7" font-family="Helvetica,sans-Serif" font-size="9.00">- Exec summary, rankings</text>
+<text text-anchor="middle" x="657.26" y="-173.9" font-family="Helvetica,sans-Serif" font-size="9.00">- Detailed breakdown per domain</text>
+</g>
+<!-- process_pdf&#45;&gt;loop_pdf -->
+<g id="edge9" class="edge">
+<title>process_pdf-&gt;loop_pdf</title>
+<path fill="none" stroke="black" d="M657.26,-258.67C657.26,-258.67 657.26,-224.41 657.26,-224.41"/>
+<polygon fill="black" stroke="black" points="659.36,-224.41 657.26,-218.41 655.16,-224.41 659.36,-224.41"/>
+</g>
+<!-- save_pdf -->
+<g id="node12" class="node">
+<title>save_pdf</title>
+<polygon fill="#fcf8e3" stroke="black" points="731.51,-121.24 577.01,-121.24 577.01,-73.72 737.51,-73.72 737.51,-115.24 731.51,-121.24"/>
+<polyline fill="none" stroke="black" points="731.51,-121.24 731.51,-115.24"/>
+<polyline fill="none" stroke="black" points="737.51,-115.24 731.51,-115.24"/>
+<text text-anchor="middle" x="657.26" y="-100.18" font-family="Helvetica,sans-Serif" font-size="9.00">10. Build &amp; Save PDF</text>
+<text text-anchor="middle" x="657.26" y="-89.38" font-family="Helvetica,sans-Serif" font-size="9.00">(Detailed_Report_for_Patient.pdf)</text>
+</g>
+<!-- loop_pdf&#45;&gt;save_pdf -->
+<g id="edge10" class="edge">
+<title>loop_pdf-&gt;save_pdf</title>
+<path fill="none" stroke="black" d="M657.26,-157.96C657.26,-157.96 657.26,-129.1 657.26,-129.1"/>
+<polygon fill="black" stroke="black" points="659.36,-129.1 657.26,-123.1 655.16,-129.1 659.36,-129.1"/>
+</g>
+<!-- save_pdf&#45;&gt;end -->
+<g id="edge11" class="edge">
+<title>save_pdf-&gt;end</title>
+<path fill="none" stroke="black" d="M657.26,-73.31C657.26,-73.31 657.26,-44.62 657.26,-44.62"/>
+<polygon fill="black" stroke="black" points="659.36,-44.62 657.26,-38.62 655.16,-44.62 659.36,-44.62"/>
+</g>
+</g>
+</svg>

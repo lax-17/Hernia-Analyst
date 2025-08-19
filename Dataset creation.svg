@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810pt" height="692pt" viewBox="0.00 0.00 809.74 692.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 688)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-688 805.74,-688 805.74,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<polygon fill="#f7f7f7" stroke="black" points="8,-8 8,-548 444,-548 444,-8 8,-8"/>
+<text text-anchor="middle" x="226" y="-531.4" font-family="Times,serif" font-size="14.00">Main Generation Loop (For each patient)</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#e8f5e9" stroke="black" points="16,-81 16,-257.8 238,-257.8 238,-81 16,-81"/>
+<text text-anchor="middle" x="127" y="-241.2" font-family="Times,serif" font-size="14.00">LLM Path (If Relevant)</text>
+</g>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<path fill="#d9edf7" stroke="black" d="M424.26,-515.2C424.26,-515.2 209.74,-515.2 209.74,-515.2 203.74,-515.2 197.74,-509.2 197.74,-503.2 197.74,-503.2 197.74,-485.6 197.74,-485.6 197.74,-479.6 203.74,-473.6 209.74,-473.6 209.74,-473.6 424.26,-473.6 424.26,-473.6 430.26,-473.6 436.26,-479.6 436.26,-485.6 436.26,-485.6 436.26,-503.2 436.26,-503.2 436.26,-509.2 430.26,-515.2 424.26,-515.2"/>
+<text text-anchor="middle" x="317" y="-498.6" font-family="Helvetica,sans-Serif" font-size="14.00">1. Generate Procedural Metadata</text>
+<text text-anchor="middle" x="317" y="-481.8" font-family="Helvetica,sans-Serif" font-size="14.00">(Age, Gender, Medical History, etc.)</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<path fill="#d9edf7" stroke="black" d="M422.66,-436.6C422.66,-436.6 221.34,-436.6 221.34,-436.6 215.34,-436.6 209.34,-430.6 209.34,-424.6 209.34,-424.6 209.34,-407 209.34,-407 209.34,-401 215.34,-395 221.34,-395 221.34,-395 422.66,-395 422.66,-395 428.66,-395 434.66,-401 434.66,-407 434.66,-407 434.66,-424.6 434.66,-424.6 434.66,-430.6 428.66,-436.6 422.66,-436.6"/>
+<text text-anchor="middle" x="322" y="-420" font-family="Helvetica,sans-Serif" font-size="14.00">Inner Loop:</text>
+<text text-anchor="middle" x="322" y="-403.2" font-family="Helvetica,sans-Serif" font-size="14.00">For each of the 17 Narrative Keys</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge2" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M318.31,-473.27C318.81,-465.68 319.39,-456.85 319.93,-448.46"/>
+<polygon fill="black" stroke="black" points="323.42,-448.77 320.58,-438.57 316.44,-448.32 323.42,-448.77"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<polygon fill="#fcf8e3" stroke="black" points="250,-339.4 84.1,-321.4 250,-303.4 415.9,-321.4 250,-339.4"/>
+<text text-anchor="middle" x="250" y="-317.2" font-family="Helvetica,sans-Serif" font-size="14.00">3. Is Narrative Relevant?</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge3" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="black" d="M306.38,-394.75C295.49,-380.77 280.88,-362.03 269.27,-347.13"/>
+<polygon fill="black" stroke="black" points="272.32,-345.35 263.41,-339.61 266.8,-349.65 272.32,-345.35"/>
+</g>
+<!-- H -->
+<g id="node10" class="node">
+<title>H</title>
+<path fill="#d9edf7" stroke="black" d="M591.54,-342.2C591.54,-342.2 466.46,-342.2 466.46,-342.2 460.46,-342.2 454.46,-336.2 454.46,-330.2 454.46,-330.2 454.46,-312.6 454.46,-312.6 454.46,-306.6 460.46,-300.6 466.46,-300.6 466.46,-300.6 591.54,-300.6 591.54,-300.6 597.54,-300.6 603.54,-306.6 603.54,-312.6 603.54,-312.6 603.54,-330.2 603.54,-330.2 603.54,-336.2 597.54,-342.2 591.54,-342.2"/>
+<text text-anchor="middle" x="529" y="-325.6" font-family="Helvetica,sans-Serif" font-size="14.00">7. Aggregate All Data</text>
+<text text-anchor="middle" x="529" y="-308.8" font-family="Helvetica,sans-Serif" font-size="14.00">for this patient</text>
+</g>
+<!-- B&#45;&gt;H -->
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<path fill="#ffffff" stroke="black" d="M218.31,-225C218.31,-225 35.69,-225 35.69,-225 29.69,-225 23.69,-219 23.69,-213 23.69,-213 23.69,-195.4 23.69,-195.4 23.69,-189.4 29.69,-183.4 35.69,-183.4 35.69,-183.4 218.31,-183.4 218.31,-183.4 224.31,-183.4 230.31,-189.4 230.31,-195.4 230.31,-195.4 230.31,-213 230.31,-213 230.31,-219 224.31,-225 218.31,-225"/>
+<text text-anchor="middle" x="127" y="-208.4" font-family="Helvetica,sans-Serif" font-size="14.00">4a. Construct Dynamic Prompt</text>
+<text text-anchor="middle" x="127" y="-191.6" font-family="Helvetica,sans-Serif" font-size="14.00">(Context + Template)</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge4" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="black" d="M233.41,-304.86C213.7,-286.4 180.46,-255.27 156.37,-232.71"/>
+<polygon fill="black" stroke="black" points="159.06,-230.43 149.37,-226.15 154.28,-235.54 159.06,-230.43"/>
+<text text-anchor="middle" x="221.09" y="-270" font-family="Times,serif" font-size="14.00">  Yes</text>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<path fill="#d9edf7" stroke="black" d="M403.59,-130.6C403.59,-130.6 258.41,-130.6 258.41,-130.6 252.41,-130.6 246.41,-124.6 246.41,-118.6 246.41,-118.6 246.41,-101 246.41,-101 246.41,-95 252.41,-89 258.41,-89 258.41,-89 403.59,-89 403.59,-89 409.59,-89 415.59,-95 415.59,-101 415.59,-101 415.59,-118.6 415.59,-118.6 415.59,-124.6 409.59,-130.6 403.59,-130.6"/>
+<text text-anchor="middle" x="331" y="-114" font-family="Helvetica,sans-Serif" font-size="14.00">4b. Set Narrative to 'N/A'</text>
+<text text-anchor="middle" x="331" y="-97.2" font-family="Helvetica,sans-Serif" font-size="14.00">(Skip LLM Call)</text>
+</g>
+<!-- C&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>C-&gt;F</title>
+<path fill="none" stroke="black" d="M256.49,-303.6C270.09,-268.41 301.75,-186.48 319.1,-141.58"/>
+<polygon fill="black" stroke="black" points="322.3,-143.02 322.64,-132.43 315.77,-140.49 322.3,-143.02"/>
+<text text-anchor="middle" x="316.29" y="-200" font-family="Times,serif" font-size="14.00">  No </text>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<path fill="#ffffff" stroke="black" d="M210.8,-130.6C210.8,-130.6 77.2,-130.6 77.2,-130.6 71.2,-130.6 65.2,-124.6 65.2,-118.6 65.2,-118.6 65.2,-101 65.2,-101 65.2,-95 71.2,-89 77.2,-89 77.2,-89 210.8,-89 210.8,-89 216.8,-89 222.8,-95 222.8,-101 222.8,-101 222.8,-118.6 222.8,-118.6 222.8,-124.6 216.8,-130.6 210.8,-130.6"/>
+<text text-anchor="middle" x="144" y="-114" font-family="Helvetica,sans-Serif" font-size="14.00">5a. Call Gemini API</text>
+<text text-anchor="middle" x="144" y="-97.2" font-family="Helvetica,sans-Serif" font-size="14.00">(with robust retry logic)</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge1" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="black" d="M130.69,-183.15C132.89,-171.16 135.74,-155.67 138.24,-142.1"/>
+<polygon fill="black" stroke="black" points="141.68,-142.77 140.04,-132.3 134.79,-141.5 141.68,-142.77"/>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<path fill="#d9edf7" stroke="black" d="M423.73,-52C423.73,-52 212.27,-52 212.27,-52 206.27,-52 200.27,-46 200.27,-40 200.27,-40 200.27,-28 200.27,-28 200.27,-22 206.27,-16 212.27,-16 212.27,-16 423.73,-16 423.73,-16 429.73,-16 435.73,-22 435.73,-28 435.73,-28 435.73,-40 435.73,-40 435.73,-46 429.73,-52 423.73,-52"/>
+<text text-anchor="middle" x="318" y="-29.8" font-family="Helvetica,sans-Serif" font-size="14.00">6. Append Result to Patient Record</text>
+</g>
+<!-- E&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>E-&gt;G</title>
+<path fill="none" stroke="black" d="M191.55,-88.63C214.76,-78.79 242.72,-66.93 266.44,-56.87"/>
+<polygon fill="black" stroke="black" points="267.78,-60.1 275.62,-52.98 265.05,-53.66 267.78,-60.1"/>
+</g>
+<!-- F&#45;&gt;G -->
+<g id="edge7" class="edge">
+<title>F-&gt;G</title>
+<path fill="none" stroke="black" d="M327.45,-88.63C326.08,-80.86 324.49,-71.83 323.01,-63.42"/>
+<polygon fill="black" stroke="black" points="326.46,-62.87 321.28,-53.63 319.57,-64.09 326.46,-62.87"/>
+</g>
+<!-- G&#45;&gt;B -->
+<g id="edge8" class="edge">
+<title>G-&gt;B</title>
+<path fill="none" stroke="black" d="M385.38,-52.37C411.39,-63.48 435,-81.18 435,-108.8 435,-322.4 435,-322.4 435,-322.4 435,-352.29 411.02,-374.25 385.15,-389.24"/>
+<polygon fill="black" stroke="black" points="383.64,-386.08 376.52,-393.93 386.98,-392.23 383.64,-386.08"/>
+</g>
+<!-- start -->
+<g id="node8" class="node">
+<title>start</title>
+<path fill="#dff0d8" stroke="black" d="M341.4,-684C341.4,-684 292.6,-684 292.6,-684 286.6,-684 280.6,-678 280.6,-672 280.6,-672 280.6,-660 280.6,-660 280.6,-654 286.6,-648 292.6,-648 292.6,-648 341.4,-648 341.4,-648 347.4,-648 353.4,-654 353.4,-660 353.4,-660 353.4,-672 353.4,-672 353.4,-678 347.4,-684 341.4,-684"/>
+<text text-anchor="middle" x="317" y="-661.8" font-family="Helvetica,sans-Serif" font-size="14.00">▶️ Start</text>
+</g>
+<!-- init -->
+<g id="node9" class="node">
+<title>init</title>
+<path fill="#d9edf7" stroke="black" d="M416.89,-611C416.89,-611 217.11,-611 217.11,-611 211.11,-611 205.11,-605 205.11,-599 205.11,-599 205.11,-587 205.11,-587 205.11,-581 211.11,-575 217.11,-575 217.11,-575 416.89,-575 416.89,-575 422.89,-575 428.89,-581 428.89,-587 428.89,-587 428.89,-599 428.89,-599 428.89,-605 422.89,-611 416.89,-611"/>
+<text text-anchor="middle" x="317" y="-588.8" font-family="Helvetica,sans-Serif" font-size="14.00">Initialize Patient List &amp; API Config</text>
+</g>
+<!-- start&#45;&gt;init -->
+<g id="edge9" class="edge">
+<title>start-&gt;init</title>
+<path fill="none" stroke="black" d="M317,-647.81C317,-640.23 317,-631.1 317,-622.54"/>
+<polygon fill="black" stroke="black" points="320.5,-622.54 317,-612.54 313.5,-622.54 320.5,-622.54"/>
+</g>
+<!-- init&#45;&gt;A -->
+<g id="edge10" class="edge">
+<title>init-&gt;A</title>
+<path fill="none" stroke="black" d="M317,-574.73C317,-561.5 317,-542.87 317,-527"/>
+<polygon fill="black" stroke="black" points="320.5,-527.04 317,-517.04 313.5,-527.04 320.5,-527.04"/>
+</g>
+<!-- loop_check -->
+<g id="node11" class="node">
+<title>loop_check</title>
+<polygon fill="#fcf8e3" stroke="black" points="629,-222.2 456.26,-204.2 629,-186.2 801.74,-204.2 629,-222.2"/>
+<text text-anchor="middle" x="629" y="-200" font-family="Helvetica,sans-Serif" font-size="14.00">More patients to process?</text>
+</g>
+<!-- H&#45;&gt;loop_check -->
+<g id="edge12" class="edge">
+<title>H-&gt;loop_check</title>
+<path fill="none" stroke="black" d="M546.42,-300.33C563.48,-280.68 589.5,-250.7 607.77,-229.66"/>
+<polygon fill="black" stroke="black" points="610.41,-231.96 614.32,-222.11 605.12,-227.37 610.41,-231.96"/>
+</g>
+<!-- loop_check&#45;&gt;A -->
+<g id="edge13" class="edge">
+<title>loop_check-&gt;A</title>
+<path fill="none" stroke="black" d="M631.61,-222.02C634.97,-249.62 637.74,-305.16 613,-342.2 568.05,-409.5 483.52,-448.44 416.26,-469.9"/>
+<polygon fill="black" stroke="black" points="415.58,-466.44 407.06,-472.74 417.65,-473.13 415.58,-466.44"/>
+<text text-anchor="middle" x="613.04" y="-364.4" font-family="Times,serif" font-size="14.00">  Yes</text>
+</g>
+<!-- I -->
+<g id="node12" class="node">
+<title>I</title>
+<path fill="#f2dede" stroke="black" d="M706.71,-130.6C706.71,-130.6 551.29,-130.6 551.29,-130.6 545.29,-130.6 539.29,-124.6 539.29,-118.6 539.29,-118.6 539.29,-101 539.29,-101 539.29,-95 545.29,-89 551.29,-89 551.29,-89 706.71,-89 706.71,-89 712.71,-89 718.71,-95 718.71,-101 718.71,-101 718.71,-118.6 718.71,-118.6 718.71,-124.6 712.71,-130.6 706.71,-130.6"/>
+<text text-anchor="middle" x="629" y="-114" font-family="Helvetica,sans-Serif" font-size="14.00">8. Save Complete Dataset</text>
+<text text-anchor="middle" x="629" y="-97.2" font-family="Helvetica,sans-Serif" font-size="14.00">to final .json file</text>
+</g>
+<!-- loop_check&#45;&gt;I -->
+<g id="edge14" class="edge">
+<title>loop_check-&gt;I</title>
+<path fill="none" stroke="black" d="M629,-185.82C629,-173.53 629,-156.7 629,-142.1"/>
+<polygon fill="black" stroke="black" points="632.5,-142.51 629,-132.51 625.5,-142.51 632.5,-142.51"/>
+<text text-anchor="middle" x="642.81" y="-152.8" font-family="Times,serif" font-size="14.00">  No </text>
+</g>
+<!-- end -->
+<g id="node13" class="node">
+<title>end</title>
+<path fill="#dff0d8" stroke="black" d="M651.07,-52C651.07,-52 606.93,-52 606.93,-52 600.93,-52 594.93,-46 594.93,-40 594.93,-40 594.93,-28 594.93,-28 594.93,-22 600.93,-16 606.93,-16 606.93,-16 651.07,-16 651.07,-16 657.07,-16 663.07,-22 663.07,-28 663.07,-28 663.07,-40 663.07,-40 663.07,-46 657.07,-52 651.07,-52"/>
+<text text-anchor="middle" x="629" y="-29.8" font-family="Helvetica,sans-Serif" font-size="14.00">⏹️ End</text>
+</g>
+<!-- I&#45;&gt;end -->
+<g id="edge15" class="edge">
+<title>I-&gt;end</title>
+<path fill="none" stroke="black" d="M629,-88.63C629,-80.86 629,-71.83 629,-63.42"/>
+<polygon fill="black" stroke="black" points="632.5,-63.65 629,-53.65 625.5,-63.65 632.5,-63.65"/>
+</g>
+</g>
+</svg>

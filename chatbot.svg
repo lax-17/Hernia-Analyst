@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595pt" height="716pt" viewBox="0.00 0.00 594.80 716.18">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 701.78)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-14.4,14.4 -14.4,-701.78 580.4,-701.78 580.4,14.4 -14.4,14.4"/>
+<g id="clust1" class="cluster">
+<title>cluster_loop</title>
+<path fill="#f7f7f7" stroke="black" d="M20,-8C20,-8 546,-8 546,-8 552,-8 558,-14 558,-20 558,-20 558,-350.5 558,-350.5 558,-356.5 552,-362.5 546,-362.5 546,-362.5 20,-362.5 20,-362.5 14,-362.5 8,-356.5 8,-350.5 8,-350.5 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text text-anchor="middle" x="283" y="-345.9" font-family="Helvetica,sans-Serif" font-size="14.00">Gradio Interactive Loop (Event-Driven)</text>
+</g>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<path fill="#dff0d8" stroke="black" d="M154.97,-687.38C154.97,-687.38 91.03,-687.38 91.03,-687.38 85.03,-687.38 79.03,-681.38 79.03,-675.38 79.03,-675.38 79.03,-662.66 79.03,-662.66 79.03,-656.66 85.03,-650.66 91.03,-650.66 91.03,-650.66 154.97,-650.66 154.97,-650.66 160.97,-650.66 166.97,-656.66 166.97,-662.66 166.97,-662.66 166.97,-675.38 166.97,-675.38 166.97,-681.38 160.97,-687.38 154.97,-687.38"/>
+<text text-anchor="middle" x="123" y="-666.32" font-family="Helvetica,sans-Serif" font-size="9.00">▶️ Start Script</text>
+</g>
+<!-- setup_env -->
+<g id="node2" class="node">
+<title>setup_env</title>
+<path fill="#d9edf7" stroke="black" d="M212.25,-617.66C212.25,-617.66 33.75,-617.66 33.75,-617.66 27.75,-617.66 21.75,-611.66 21.75,-605.66 21.75,-605.66 21.75,-571.34 21.75,-571.34 21.75,-565.34 27.75,-559.34 33.75,-559.34 33.75,-559.34 212.25,-559.34 212.25,-559.34 218.25,-559.34 224.25,-565.34 224.25,-571.34 224.25,-571.34 224.25,-605.66 224.25,-605.66 224.25,-611.66 218.25,-617.66 212.25,-617.66"/>
+<text text-anchor="middle" x="123" y="-596.6" font-family="Helvetica,sans-Serif" font-size="9.00">1. Setup Environment</text>
+<text text-anchor="middle" x="123" y="-585.8" font-family="Helvetica,sans-Serif" font-size="9.00">- Install dependencies (transformers, gradio)</text>
+<text text-anchor="middle" x="123" y="-575" font-family="Helvetica,sans-Serif" font-size="9.00">- Log in to Hugging Face</text>
+</g>
+<!-- start&#45;&gt;setup_env -->
+<g id="edge8" class="edge">
+<title>start-&gt;setup_env</title>
+<path fill="none" stroke="black" d="M123,-650.34C123,-650.34 123,-625.62 123,-625.62"/>
+<polygon fill="black" stroke="black" points="125.1,-625.62 123,-619.62 120.9,-625.62 125.1,-625.62"/>
+</g>
+<!-- load_model -->
+<g id="node3" class="node">
+<title>load_model</title>
+<path fill="#d9edf7" stroke="black" d="M180.98,-526.34C180.98,-526.34 65.02,-526.34 65.02,-526.34 59.02,-526.34 53.02,-520.34 53.02,-514.34 53.02,-514.34 53.02,-480.02 53.02,-480.02 53.02,-474.02 59.02,-468.02 65.02,-468.02 65.02,-468.02 180.98,-468.02 180.98,-468.02 186.98,-468.02 192.98,-474.02 192.98,-480.02 192.98,-480.02 192.98,-514.34 192.98,-514.34 192.98,-520.34 186.98,-526.34 180.98,-526.34"/>
+<text text-anchor="middle" x="123" y="-505.28" font-family="Helvetica,sans-Serif" font-size="9.00">2. Load Fine-Tuned Model</text>
+<text text-anchor="middle" x="123" y="-494.48" font-family="Helvetica,sans-Serif" font-size="9.00">- Llama-3-8B-Hernia-Analyst</text>
+<text text-anchor="middle" x="123" y="-483.68" font-family="Helvetica,sans-Serif" font-size="9.00">- Apply 4-bit quantization</text>
+</g>
+<!-- setup_env&#45;&gt;load_model -->
+<g id="edge9" class="edge">
+<title>setup_env-&gt;load_model</title>
+<path fill="none" stroke="black" d="M123,-558.85C123,-558.85 123,-534.19 123,-534.19"/>
+<polygon fill="black" stroke="black" points="125.1,-534.19 123,-528.19 120.9,-534.19 125.1,-534.19"/>
+</g>
+<!-- launch_ui -->
+<g id="node4" class="node">
+<title>launch_ui</title>
+<path fill="#e8f5e9" stroke="black" stroke-width="2" d="M202,-435.02C202,-435.02 44,-435.02 44,-435.02 38,-435.02 32,-429.02 32,-423.02 32,-423.02 32,-399.5 32,-399.5 32,-393.5 38,-387.5 44,-387.5 44,-387.5 202,-387.5 202,-387.5 208,-387.5 214,-393.5 214,-399.5 214,-399.5 214,-423.02 214,-423.02 214,-429.02 208,-435.02 202,-435.02"/>
+<text text-anchor="middle" x="123" y="-413.96" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#3c763d">3. Launch Gradio Web Interface</text>
+<text text-anchor="middle" x="123" y="-403.16" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#3c763d">Application now waiting for user input...</text>
+</g>
+<!-- load_model&#45;&gt;launch_ui -->
+<g id="edge10" class="edge">
+<title>load_model-&gt;launch_ui</title>
+<path fill="none" stroke="black" d="M123,-467.61C123,-467.61 123,-443.26 123,-443.26"/>
+<polygon fill="black" stroke="black" points="125.1,-443.26 123,-437.26 120.9,-443.26 125.1,-443.26"/>
+</g>
+<!-- user_input -->
+<g id="node5" class="node">
+<title>user_input</title>
+<ellipse fill="#fcf8e3" stroke="black" cx="123" cy="-303.73" rx="106.75" ry="25.96"/>
+<text text-anchor="middle" x="123" y="-301.03" font-family="Helvetica,sans-Serif" font-size="9.00">4. User Enters a Message in UI</text>
+</g>
+<!-- launch_ui&#45;&gt;user_input -->
+<g id="edge11" class="edge">
+<title>launch_ui-&gt;user_input</title>
+<path fill="none" stroke="black" d="M123,-386.59C123,-386.59 123,-337.68 123,-337.68"/>
+<polygon fill="black" stroke="black" points="125.1,-337.68 123,-331.68 120.9,-337.68 125.1,-337.68"/>
+</g>
+<!-- reconstruct_history -->
+<g id="node7" class="node">
+<title>reconstruct_history</title>
+<path fill="#d9edf7" stroke="black" d="M197.49,-228.97C197.49,-228.97 34.51,-228.97 34.51,-228.97 28.51,-228.97 22.51,-222.97 22.51,-216.97 22.51,-216.97 22.51,-193.45 22.51,-193.45 22.51,-187.45 28.51,-181.45 34.51,-181.45 34.51,-181.45 197.49,-181.45 197.49,-181.45 203.49,-181.45 209.49,-187.45 209.49,-193.45 209.49,-193.45 209.49,-216.97 209.49,-216.97 209.49,-222.97 203.49,-228.97 197.49,-228.97"/>
+<text text-anchor="middle" x="116" y="-207.91" font-family="Helvetica,sans-Serif" font-size="9.00">5. Reconstruct Full Conversation History</text>
+<text text-anchor="middle" x="116" y="-197.11" font-family="Helvetica,sans-Serif" font-size="9.00">(This is the 'Memory')</text>
+</g>
+<!-- user_input&#45;&gt;reconstruct_history -->
+<g id="edge1" class="edge">
+<title>user_input-&gt;reconstruct_history</title>
+<path fill="none" stroke="black" d="M116,-277.33C116,-277.33 116,-236.84 116,-236.84"/>
+<polygon fill="black" stroke="black" points="118.1,-236.84 116,-230.84 113.9,-236.84 118.1,-236.84"/>
+<text text-anchor="middle" x="220.17" y="-249.17" font-family="Helvetica,sans-Serif" font-size="14.00">Gradio triggers backend function</text>
+</g>
+<!-- display_output -->
+<g id="node6" class="node">
+<title>display_output</title>
+<ellipse fill="#fcf8e3" stroke="black" cx="439" cy="-41.96" rx="110.8" ry="25.96"/>
+<text text-anchor="middle" x="439" y="-39.26" font-family="Helvetica,sans-Serif" font-size="9.00">10. Display Bot's Response in UI</text>
+</g>
+<!-- display_output&#45;&gt;user_input -->
+<g id="edge7" class="edge">
+<title>display_output-&gt;user_input</title>
+<path fill="none" stroke="gray" stroke-dasharray="5,2" d="M512.78,-61.64C512.78,-122.52 512.78,-303.73 512.78,-303.73 512.78,-303.73 237.54,-303.73 237.54,-303.73"/>
+<polygon fill="gray" stroke="gray" points="237.54,-301.63 231.54,-303.73 237.54,-305.83 237.54,-301.63"/>
+<text text-anchor="middle" x="426.57" y="-307.93" font-family="Helvetica,sans-Serif" font-size="14.00">Wait for next message</text>
+</g>
+<!-- append_message -->
+<g id="node8" class="node">
+<title>append_message</title>
+<path fill="#d9edf7" stroke="black" d="M408.99,-223.57C408.99,-223.57 285.01,-223.57 285.01,-223.57 279.01,-223.57 273.01,-217.57 273.01,-211.57 273.01,-211.57 273.01,-198.85 273.01,-198.85 273.01,-192.85 279.01,-186.85 285.01,-186.85 285.01,-186.85 408.99,-186.85 408.99,-186.85 414.99,-186.85 420.99,-192.85 420.99,-198.85 420.99,-198.85 420.99,-211.57 420.99,-211.57 420.99,-217.57 414.99,-223.57 408.99,-223.57"/>
+<text text-anchor="middle" x="347" y="-202.51" font-family="Helvetica,sans-Serif" font-size="9.00">6. Append New User Message</text>
+</g>
+<!-- reconstruct_history&#45;&gt;append_message -->
+<g id="edge2" class="edge">
+<title>reconstruct_history-&gt;append_message</title>
+<path fill="none" stroke="black" d="M209.96,-205.21C209.96,-205.21 265.09,-205.21 265.09,-205.21"/>
+<polygon fill="black" stroke="black" points="265.09,-207.31 271.09,-205.21 265.09,-203.11 265.09,-207.31"/>
+</g>
+<!-- build_prompt -->
+<g id="node9" class="node">
+<title>build_prompt</title>
+<path fill="#d9edf7" stroke="black" d="M215.24,-143.05C215.24,-143.05 76.76,-143.05 76.76,-143.05 70.76,-143.05 64.76,-137.05 64.76,-131.05 64.76,-131.05 64.76,-118.33 64.76,-118.33 64.76,-112.33 70.76,-106.33 76.76,-106.33 76.76,-106.33 215.24,-106.33 215.24,-106.33 221.24,-106.33 227.24,-112.33 227.24,-118.33 227.24,-118.33 227.24,-131.05 227.24,-131.05 227.24,-137.05 221.24,-143.05 215.24,-143.05"/>
+<text text-anchor="middle" x="146" y="-121.99" font-family="Helvetica,sans-Serif" font-size="9.00">7. Construct Final Llama 3 Prompt</text>
+</g>
+<!-- append_message&#45;&gt;build_prompt -->
+<g id="edge3" class="edge">
+<title>append_message-&gt;build_prompt</title>
+<path fill="none" stroke="black" d="M281.63,-186.44C281.63,-164.4 281.63,-130.81 281.63,-130.81 281.63,-130.81 235.15,-130.81 235.15,-130.81"/>
+<polygon fill="black" stroke="black" points="235.15,-128.71 229.15,-130.81 235.15,-132.91 235.15,-128.71"/>
+</g>
+<!-- run_inference -->
+<g id="node10" class="node">
+<title>run_inference</title>
+<path fill="#e8f5e9" stroke="black" d="M463.75,-148.45C463.75,-148.45 302.25,-148.45 302.25,-148.45 296.25,-148.45 290.25,-142.45 290.25,-136.45 290.25,-136.45 290.25,-112.93 290.25,-112.93 290.25,-106.93 296.25,-100.93 302.25,-100.93 302.25,-100.93 463.75,-100.93 463.75,-100.93 469.75,-100.93 475.75,-106.93 475.75,-112.93 475.75,-112.93 475.75,-136.45 475.75,-136.45 475.75,-142.45 469.75,-148.45 463.75,-148.45"/>
+<text text-anchor="middle" x="383" y="-127.39" font-family="Helvetica,sans-Serif" font-size="9.00">8. Send Prompt to Model for Generation</text>
+<text text-anchor="middle" x="383" y="-116.59" font-family="Helvetica,sans-Serif" font-size="9.00">(Using conversational parameters)</text>
+</g>
+<!-- build_prompt&#45;&gt;run_inference -->
+<g id="edge4" class="edge">
+<title>build_prompt-&gt;run_inference</title>
+<path fill="none" stroke="black" d="M227.56,-118.57C227.56,-118.57 282.38,-118.57 282.38,-118.57"/>
+<polygon fill="black" stroke="black" points="282.38,-120.67 288.38,-118.57 282.38,-116.47 282.38,-120.67"/>
+</g>
+<!-- decode_response -->
+<g id="node11" class="node">
+<title>decode_response</title>
+<path fill="#d9edf7" stroke="black" d="M147.6,-60.32C147.6,-60.32 28.4,-60.32 28.4,-60.32 22.4,-60.32 16.4,-54.32 16.4,-48.32 16.4,-48.32 16.4,-35.6 16.4,-35.6 16.4,-29.6 22.4,-23.6 28.4,-23.6 28.4,-23.6 147.6,-23.6 147.6,-23.6 153.6,-23.6 159.6,-29.6 159.6,-35.6 159.6,-35.6 159.6,-48.32 159.6,-48.32 159.6,-54.32 153.6,-60.32 147.6,-60.32"/>
+<text text-anchor="middle" x="88" y="-39.26" font-family="Helvetica,sans-Serif" font-size="9.00">9. Decode Model's Response</text>
+</g>
+<!-- run_inference&#45;&gt;decode_response -->
+<g id="edge5" class="edge">
+<title>run_inference-&gt;decode_response</title>
+<path fill="none" stroke="black" d="M309.22,-100.45C309.22,-78.01 309.22,-48.08 309.22,-48.08 309.22,-48.08 167.34,-48.08 167.34,-48.08"/>
+<polygon fill="black" stroke="black" points="167.34,-45.99 161.34,-48.08 167.34,-50.19 167.34,-45.99"/>
+</g>
+<!-- decode_response&#45;&gt;display_output -->
+<g id="edge6" class="edge">
+<title>decode_response-&gt;display_output</title>
+<path fill="none" stroke="black" d="M159.88,-35.84C159.88,-35.84 323.36,-35.84 323.36,-35.84"/>
+<polygon fill="black" stroke="black" points="323.36,-37.95 329.36,-35.84 323.36,-33.75 323.36,-37.95"/>
+<text text-anchor="middle" x="241.62" y="-23.24" font-family="Helvetica,sans-Serif" font-size="14.00">Return response to UI</text>
+</g>
+</g>
+</svg>
